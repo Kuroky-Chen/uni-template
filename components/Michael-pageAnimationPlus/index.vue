@@ -62,11 +62,12 @@
 				}, 20)
 			},
 			show() {
-				if (this.isShow()) {
-					this.onShowClick()
-				} else {
-					// do something
-				}
+				this.onShowClick()
+				// if (this.isShow()) {
+				// 	this.onShowClick()
+				// } else {
+				// 	// do something
+				// }
 			},
 			onShowClick() {
 				const classList = document.querySelector('uni-page').classList
