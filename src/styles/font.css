@@ -1,0 +1,63 @@
+/* 解决头条小程序组件内引入字体不生效的问题 */
+/* #ifdef MP-TOUTIAO */
+@font-face {
+	font-family: uniicons;
+	src: url('src/assets/font/uni.ttf');
+}
+
+/* #endif */
+
+/* 路径是根据app.vue的位置 */
+
+@font-face {
+	font-family: "Palatino";
+	src: url('src/assets/font/Palatino-Roman.otf');
+}
+
+@font-face {
+	font-family: "Futura";
+	src: url('src/assets/font/Futura-Bold-5.ttf');
+}
+
+@font-face {
+	font-family: "cc-icon";
+	src: url('src/assets/font/iconfont.eot?t=1600434083794');
+	/* IE9 */
+	src: url('src/assets/font/iconfont.eot?t=1600434083794#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAWEAAsAAAAACyQAAAU3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDVgqIWIcMATYCJAMcCxAABCAFhG0HgQIbfgkRFaSrkf0ssGPydO0TPnJ+s/bN8qwp5yD/ef4sz/3vJx5IyiwyrbNbL4WBKqUAEgANECARdv/nrG50KFyEKco9v/kjW0w+UXr0P8dMl76B5X97PpCpRoZFJe0NcJRA8+5riwQ9vRNqUTkD2dWtF4Zgng8EQAprnigxObMQYvCgswgAdba11EHsUoGPwRPEUmHIRp7odQgg5l7mHgF4Tf94+gb+iQEOAga6MLc5qRGxaqg/ZEqNEpUqAuzyDABu2wAGwBPAA7Qs1DQKZno8MUg/n8MjE4AcYnDg1aROV2eqJ9QfajRquHjUR5BDm/2DBwggBAMPDgSQEBDJZWypVwioIRQQfMQEVpg4HQowiDOhAA/xBBTgIP4QnLkTidQN2gB0gUoAugsq8dRF3FygOJejllyH+C15iBykrk52dmO6Z6atRVtnQrRW7Ffuk8pV+yBU7pfprThIbOKgfxi4TZPNqgMTJi1rI29m2LiqYWHBZ8d88exs4ea5ovlPihc+LZn7uGjbR4VEjzs7Y7NlOvjUpOXmqaj5+eKFhZK5uaJkjOBDx9fsMZYb3iyZmHdfY3xAust1laHhPkDVz85Gum72yJRb/9hJb+9Vi4q1G0bZhMykqHScaI2JyVqj1ezM6+egnDVdZbhq836nulLtios+VxdKNm6tyeSbcpIJxoqm25G+arXhOkBpaPpU8zq/5IZPS0yuOtBaEy6g1qWqZj1XqYyPzEufI5RGUJrhcJTRXKNDVsxFXV2QNT1Vuc5w06yr4Wxjom6pi42v+B+hNTWRy8OhjH09URIrSXx9mw6s6aganVjB8Y2WJO7/X9vAdP3Vq+tNA7RXHYNm83Pif7dHHPv12CrJq8L/NorS9v+54/WgNSLbU9IkabPdodWC7RKTu+KUw44X3xQD2PzT/zo6mh8/0sgD/v8+nkpLEY94SRlPtoAIE28QAGL+k2rLZDynjaIwq7ojij21lh8NJDgGCyyZTo5FYeMS/6mpbKufrDIn7V4vSEv/w3pZxA6zn4jZHiDBT/oNhbyQ6bG9Z3QDR8sXteLsHLViFyrWX+Jfsu2izN8D8YfVpGNat1F83m7kySYtCjmb7uTylf62ZqpNk/HQQZHYsu7o2N4KzxRIHP1qxUlcfS0Km5f5y1dWvl70uCY0trr/Jb0VP36f3CSQy6lCoagg/2K3zy/ZXvpcu65/BSkUVCGRMJNLJNcrTi9Z/JNT7Nih4EIbXAYHhT5Uwbn+iJxC1ztq1CXlsX1muav+esv1DvK8WvuL5SJnKcyXVh2NjmW3uFcBjZKXsHEdL2TLqQ/Z5yxQTLtxwporCz/WPEf+JpYd+nXvqiZ3ElZ+kxI4V8VIzT6pC3ghoPmPl9y5slrEv9kCKaxg7mwQABGKcMK6OABSZgM0sOn7oDyZ0YnhI4hhZAMHEayAQQxHJI/1BAFkCAQhxIgBKTykbJfBQD8YiJcAcPe8BARdR4GDNq4Cg67HSB77Pghg7DsQQjcGUhSTwYEyOKdQ54SMM+MGyx+oNXjiWj4b8W8odjtnJ1cnfGEuyg5903n9d/SYy1hSvsXATEA5OLhJF0NrA8QcNK7cSOZ4bVsKe6BmDa46S8g4M26w/IFagye1Np997/+GYrdzjin7of3CXFTn0DddCuRd5FOVbUtq+RYDExcB3WKDgxsxoGWeADF8nMaVG5nDFa8tqUZpRU39Erec2wCk6GpRHDHiSUBCEpEYgtEfUR/+Zq+VF68u3Lgp/j9X1L96GR/S2S91K18qX+zwkXZrqwo=') format('woff2'),
+		url('src/assets/font/iconfont.woff?t=1600434083794') format('woff'),
+		url('src/assets/font/iconfont.ttf?t=1600434083794') format('truetype'),
+		/* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+		url('src/assets/font/iconfont.svg?t=1600434083794#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.cc-icon {
+	font-family: "cc-icon" !important;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600 !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cc-icon-icon_dianzan-xian:before {
+	content: "\e64a";
+}
+
+.cc-icon-icon_dianzan-mian:before {
+	content: "\e64c";
+}
+
+.cc-icon-act_dianzan:before {
+	content: "\e600";
+}
+
+.cc-icon-act_dianzan_full:before {
+	content: "\e601";
+}
+
+.cc-icon-icon-:before {
+	content: "\e6df";
+}

@@ -1,0 +1,21 @@
+{
+  "name": "uni-template",
+  "version": "1.0.0",
+  "description": "fighting",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kuroky",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.5",
+    "flyio": "^0.6.14",
+    "uview-ui": "^1.8.4",
+    "vue-i18n": "^8.24.4"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}

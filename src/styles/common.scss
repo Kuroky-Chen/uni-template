@@ -1,0 +1,45 @@
+.container-box {
+	width: 750rpx;
+	height: 100vh;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-ellipsis {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	.text-break {
+		word-break: break-word;
+	}
+/* 秀米 */
+	.tn-board-head {
+		margin-left: 0 !important;
+	}
+
+	.tn-comp-pin.tn-comp-style-pin>div {
+		margin: 0 auto;
+	}
+	.under-line {
+		text-decoration: underline;
+		text-underline-offset: 6rpx;
+	}
+	.clearfix:before,
+	.clearfix:after {
+		content: '';
+		display: table
+	}
+	
+	.clearfix:after {
+		clear: both;
+		overflow: hidden
+	}
+	
+	.clearfix {
+		zoom: 1
+	}
